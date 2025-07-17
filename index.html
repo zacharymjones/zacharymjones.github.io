@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zachary Jones</title>
+<link rel="stylesheet" href="styles/shared.css" />
+</head>
+<body>
+    <header class="site-header">
+    <nav>
+        <a href="index.html" class="active">Projects</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    </header>
+  <div class="container">
+    <h1>Zachary Jones</h1>
+    <p class="tagline">Good decisions aren't guesses. They're built on models, data, and a clear understanding of risk. That mindset defines my work across finance, betting markets, and strategy games.</p>
+
+  <section class="section-dark">
+    <h2>Personal Projects</h2>
+    <div class="project-grid" id="personal-projects"></div>
+  </section>
+
+  <section class="section-darker">
+    <h2>Academic Projects</h2>
+    <div class="project-grid" id="academic-projects"></div>
+  </section>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+      <div id="modal-image-container">
+      <img id="modal-image" alt="" />
+    </div>
+    <div id="modal-pdf-container" style="display: none; margin-top: 1rem;">
+      <iframe id="modal-pdf" width="100%" height="480px" frameborder="0"></iframe>
+    </div>
+      <div class="modal-tags" id="modal-tags"></div>
+    </div>
+  </div>
+
+  
+<script src="scripts/main.js"></script>
+  <footer class="site-footer">
+    <p>
+      &copy; 2025 Zachary Jones &middot;
+            <a href="mailto:mzacharyjones@gmail.com" class="subtle-link">
+        mzacharyjones@gmail.com
+      </a> &middot;
+      <a href="https://www.linkedin.com/in/zachary-jones-ab920b1b7/" class="subtle-link" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
