@@ -217,7 +217,7 @@ function openModal(project) {
   }
 
   if (project.pdf) {
-  modalPdf.src = project.pdf;
+  modalPdf.src = project.pdf + '#zoom=fit';
   modalPdfContainer.style.display = "block";
   } else {
   modalPdf.src = "";
