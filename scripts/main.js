@@ -8,7 +8,8 @@ const personalProjects = [
     "<p>Regen is a fully automated sports betting engine I developed in Python (2,300+ lines, solo). It continuously scrapes live odds using Selenium, stores bet data in an SQL database, and computes expected value by devigging Pinnacle’s sharper lines into fair market prices. The system compares these to BetMGM odds across moneylines, spreads, totals, and player props. +EV opportunities are flagged and posted via a Discord bot using the Discord API.</p>" +
     "<p>Regen has delivered over 50% ROI. Due to sustained profitable betting, I am now limited on BetMGM for MLB, NBA, NHL, and player props.</p>",
     tags: ["Python", "Web Scraping", "SQL", "Data Analysis", "Automation", "Expected Value"],
-    icon: `<img src="./projects/regen/icon.png" alt="Regen project icon" class="icon-img" />`
+    icon: `<img src="./projects/regen/icon.png" alt="Regen project icon" class="icon-img" />`,
+    image: "./projects/regen/preview.png"
 },
 {
     title: "SolverSheets",
